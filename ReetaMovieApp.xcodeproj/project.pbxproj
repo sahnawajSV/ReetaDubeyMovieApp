@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A1E4E81F6BC83F00C44C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E4E71F6BC83F00C44C83 /* AppDelegate.swift */; };
+		10A1E4EA1F6BC83F00C44C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E4E91F6BC83F00C44C83 /* ViewController.swift */; };
+		10A1E4ED1F6BC83F00C44C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A1E4EB1F6BC83F00C44C83 /* Main.storyboard */; };
+		10A1E4F01F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E4EE1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodeld */; };
+		10A1E4F21F6BC83F00C44C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A1E4F11F6BC83F00C44C83 /* Assets.xcassets */; };
+		10A1E4F51F6BC83F00C44C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A1E4F31F6BC83F00C44C83 /* LaunchScreen.storyboard */; };
+		10A1E4FD1F6BCAB000C44C83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E4FC1F6BCAB000C44C83 /* Constants.swift */; };
+		10A1E4FF1F6BCB0300C44C83 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E4FE1F6BCB0300C44C83 /* WebServiceManager.swift */; };
+		10A1E5011F6BCDFA00C44C83 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E5001F6BCDFA00C44C83 /* MovieListCell.swift */; };
+		10A1E5071F6BD57500C44C83 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E5061F6BD57500C44C83 /* MovieModel.swift */; };
+		10A1E5091F6BDCB200C44C83 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E5081F6BDCB200C44C83 /* MovieDetailViewController.swift */; };
+		10A1E50C1F6BE7C600C44C83 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E50B1F6BE7C600C44C83 /* MovieDetails.swift */; };
+		10A1E5101F6BEEDE00C44C83 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1E50F1F6BEEDE00C44C83 /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A1E4E41F6BC83F00C44C83 /* ReetaMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReetaMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A1E4E71F6BC83F00C44C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10A1E4E91F6BC83F00C44C83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10A1E4EC1F6BC83F00C44C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A1E4EF1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReetaMovieApp.xcdatamodel; sourceTree = "<group>"; };
+		10A1E4F11F6BC83F00C44C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A1E4F41F6BC83F00C44C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10A1E4F61F6BC83F00C44C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A1E4FC1F6BCAB000C44C83 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10A1E4FE1F6BCB0300C44C83 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		10A1E5001F6BCDFA00C44C83 /* MovieListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
+		10A1E5061F6BD57500C44C83 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		10A1E5081F6BDCB200C44C83 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		10A1E50B1F6BE7C600C44C83 /* MovieDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
+		10A1E50F1F6BEEDE00C44C83 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A1E4E11F6BC83F00C44C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A1E4DB1F6BC83F00C44C83 = {
+			isa = PBXGroup;
+			children = (
+				10A1E4E61F6BC83F00C44C83 /* ReetaMovieApp */,
+				10A1E4E51F6BC83F00C44C83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A1E4E51F6BC83F00C44C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E4E41F6BC83F00C44C83 /* ReetaMovieApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A1E4E61F6BC83F00C44C83 /* ReetaMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E5141F6C017500C44C83 /* Supporting Files */,
+				10A1E5131F6C015F00C44C83 /* MovieDetail */,
+				10A1E5121F6C014800C44C83 /* MovieList */,
+				10A1E5111F6C012600C44C83 /* Constants */,
+				10A1E50A1F6BE7A300C44C83 /* Models */,
+				10A1E4FE1F6BCB0300C44C83 /* WebServiceManager.swift */,
+			);
+			path = ReetaMovieApp;
+			sourceTree = "<group>";
+		};
+		10A1E50A1F6BE7A300C44C83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E5061F6BD57500C44C83 /* MovieModel.swift */,
+				10A1E50B1F6BE7C600C44C83 /* MovieDetails.swift */,
+				10A1E50F1F6BEEDE00C44C83 /* Movie.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		10A1E5111F6C012600C44C83 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E4FC1F6BCAB000C44C83 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		10A1E5121F6C014800C44C83 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E4E91F6BC83F00C44C83 /* ViewController.swift */,
+				10A1E5001F6BCDFA00C44C83 /* MovieListCell.swift */,
+			);
+			name = MovieList;
+			sourceTree = "<group>";
+		};
+		10A1E5131F6C015F00C44C83 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E5081F6BDCB200C44C83 /* MovieDetailViewController.swift */,
+			);
+			name = MovieDetail;
+			sourceTree = "<group>";
+		};
+		10A1E5141F6C017500C44C83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A1E4EE1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodeld */,
+				10A1E4E71F6BC83F00C44C83 /* AppDelegate.swift */,
+				10A1E4F11F6BC83F00C44C83 /* Assets.xcassets */,
+				10A1E4F61F6BC83F00C44C83 /* Info.plist */,
+				10A1E4EB1F6BC83F00C44C83 /* Main.storyboard */,
+				10A1E4F31F6BC83F00C44C83 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A1E4E31F6BC83F00C44C83 /* ReetaMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A1E4F91F6BC83F00C44C83 /* Build configuration list for PBXNativeTarget "ReetaMovieApp" */;
+			buildPhases = (
+				10A1E4E01F6BC83F00C44C83 /* Sources */,
+				10A1E4E11F6BC83F00C44C83 /* Frameworks */,
+				10A1E4E21F6BC83F00C44C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReetaMovieApp;
+			productName = ReetaMovieApp;
+			productReference = 10A1E4E41F6BC83F00C44C83 /* ReetaMovieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A1E4DC1F6BC83F00C44C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = APPLE;
+				TargetAttributes = {
+					10A1E4E31F6BC83F00C44C83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10A1E4DF1F6BC83F00C44C83 /* Build configuration list for PBXProject "ReetaMovieApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A1E4DB1F6BC83F00C44C83;
+			productRefGroup = 10A1E4E51F6BC83F00C44C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A1E4E31F6BC83F00C44C83 /* ReetaMovieApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A1E4E21F6BC83F00C44C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A1E4F51F6BC83F00C44C83 /* LaunchScreen.storyboard in Resources */,
+				10A1E4F21F6BC83F00C44C83 /* Assets.xcassets in Resources */,
+				10A1E4ED1F6BC83F00C44C83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A1E4E01F6BC83F00C44C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A1E4FF1F6BCB0300C44C83 /* WebServiceManager.swift in Sources */,
+				10A1E4EA1F6BC83F00C44C83 /* ViewController.swift in Sources */,
+				10A1E50C1F6BE7C600C44C83 /* MovieDetails.swift in Sources */,
+				10A1E5011F6BCDFA00C44C83 /* MovieListCell.swift in Sources */,
+				10A1E5071F6BD57500C44C83 /* MovieModel.swift in Sources */,
+				10A1E4F01F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodeld in Sources */,
+				10A1E4E81F6BC83F00C44C83 /* AppDelegate.swift in Sources */,
+				10A1E5091F6BDCB200C44C83 /* MovieDetailViewController.swift in Sources */,
+				10A1E5101F6BEEDE00C44C83 /* Movie.swift in Sources */,
+				10A1E4FD1F6BCAB000C44C83 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10A1E4EB1F6BC83F00C44C83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A1E4EC1F6BC83F00C44C83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A1E4F31F6BC83F00C44C83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A1E4F41F6BC83F00C44C83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A1E4F71F6BC83F00C44C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10A1E4F81F6BC83F00C44C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A1E4FA1F6BC83F00C44C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReetaMovieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softvision.movie.ReetaMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		10A1E4FB1F6BC83F00C44C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReetaMovieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softvision.movie.ReetaMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A1E4DF1F6BC83F00C44C83 /* Build configuration list for PBXProject "ReetaMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A1E4F71F6BC83F00C44C83 /* Debug */,
+				10A1E4F81F6BC83F00C44C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A1E4F91F6BC83F00C44C83 /* Build configuration list for PBXNativeTarget "ReetaMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A1E4FA1F6BC83F00C44C83 /* Debug */,
+				10A1E4FB1F6BC83F00C44C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10A1E4EE1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10A1E4EF1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodel */,
+			);
+			currentVersion = 10A1E4EF1F6BC83F00C44C83 /* ReetaMovieApp.xcdatamodel */;
+			path = ReetaMovieApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10A1E4DC1F6BC83F00C44C83 /* Project object */;
+}
